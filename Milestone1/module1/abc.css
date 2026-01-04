@@ -1,0 +1,36 @@
+body{
+            background-color: rgb(186, 27, 27);
+            color: white;
+        }
+        h1{
+            text-align: center;
+            text-decoration: underline;
+        }
+        input[type="submit"]{
+            display: block;
+            margin: auto;
+            padding: 10px;
+            border-radius: 10px;
+            border: none;
+            color: tomato;
+            font-weight: bold;
+            background-color: turquoise;
+        }
+        #maruf{
+            background-color: rgb(169, 26, 26);
+            border-radius: 50px;
+            padding: 20px;
+            margin: 30px;
+
+        }
+        a{
+            color: rgb(255, 0, 153);
+            font-weight: bold;
+            display: block;
+            text-align: center;
+        }
+        a:hover{
+            color: yellow;
+            text-decoration: underline;
+            
+        }
