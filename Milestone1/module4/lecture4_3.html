@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>pitha gor </title>
+    <style>
+        form .b input, textarea, label{
+            
+            margin: 20px;
+            padding: 10px;
+            border: 2px solid black;
+            border-radius: 10px;
+            background-color: rgb(255, 136, 0);
+            color: white;
+
+        }
+        input[type="text"], input[type="email"], input[type="tel"]{
+            width: 300px;
+            height: 30px;
+            font-size: 20px;
+            font-weight: bold;
+            color: black;
+            padding: 5px;
+            border-radius: 5px;
+            border: 2px solid gray;
+            
+
+        }
+        input[type="submit"]{
+            background-color: green;
+            border: 20px;
+            padding: 10px 20px;
+            color: white;
+            font-size: 20px;
+            margin: 20px auto;
+
+        }
+        input[type="reset"]{
+            background-color: red;
+            border: 20px;
+            padding: 10px 20px;
+            color: white;
+            font-size: 20px;
+            align-items: center;
+
+        }
+        form  .a{
+            font-size: 20px;
+            font-weight: bold;
+            color: rgb(198, 31, 156);
+
+        }
+    </style>
+</head>
+<body>
+    <header>
+
+    </header>
+    <main>
+        <section>
+            <h2>jamal mother pitha ghar</h2>
+            <form action="">
+                <label for="name">your name:</label>
+                <input type="text" name="name" id="name"> <br><br>
+                <label for="email">your email:</label>
+                <input type="email" name="email" id="email"> <br><br>
+                <label for="phone">your phone:</label>
+                <input type="tel" name="phone" id="phone"> <br><br>
+
+                <fieldset class="b">
+                <legend class="a">pitha info</legend>
+
+                <input type="radio" name="pitha" id="chitoy">
+                <label for="chitoy">chitoy</label>
+
+                <input type="radio" name="pitha" id="bapa">
+                <label for="bapa">bapa</label>
+
+                <input type="radio" name="pitha" id="dalpuri">
+                <label for="dalpuri">dalpuri</label>
+            </fieldset>
+            <fieldset class="b">
+                <legend class="a">vorta</legend>
+                <input type="checkbox" name="vorta" id="shorisha">
+                <label for="shorisha">shorisha</label> <br>
+                <input type="checkbox" name="vorta" id="begun">
+                <label for="begun">begun</label> <br>
+                <input type="checkbox" name="vorta" id="alu">
+                <label for="alu">alu</label> <br>
+
+            </fieldset>
+
+            <fieldset class="b">
+                <legend class="a">extra info</legend>
+                <textarea cols="100" rows="50" name="extrainfo" id="extrainfo"></textarea>
+            </fieldset>
+
+            <input type="submit" value="submit">
+            <input type="reset" value="resets">
+            </form>
+
+            
+        </section>
+
+    </main>
+    <footer>
+
+    </footer>
+    
+</body>
+</html>

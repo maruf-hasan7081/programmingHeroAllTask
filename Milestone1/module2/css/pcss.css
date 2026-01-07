@@ -1,0 +1,12 @@
+body{
+    background-color: rgb(35, 15, 84);
+}
+h1
+{
+    color: white;
+    text-align: center;
+}
+ol {
+    color: white;
+    font-weight: bold;
+}
