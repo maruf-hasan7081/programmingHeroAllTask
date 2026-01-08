@@ -1,0 +1,30 @@
+.card{
+    width: 300px;
+    border: 2px solid saddlebrown;
+    border-radius: 10px;
+    padding: 10px;
+    box-shadow: 10px 10px 10px 10px rebeccapurple;
+    margin: 0 auto;
+}
+.card img{
+    width: 100%;
+    border-radius: 10px;
+}
+.card:hover{
+    background-color: aqua;
+}
+.card-container{
+    display:flex;
+    gap: 50px;
+    flex-wrap: wrap;
+}
+button{
+    text-align: center;
+    background-color: aqua;
+    border-radius: 10px;
+    
+}
+.card-section{
+    text-align: center;
+
+}
