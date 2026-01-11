@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form</title>
+    <style>
+        nav{
+            display:flex;
+            justify-content: space-between;
+        }
+        nav .container{
+            display: flex;
+            gap: 20px;
+        }
+
+        nav a{
+            text-decoration: none;
+            color: yellowgreen;
+            
+
+        }
+        .form{
+            display: flex;
+            flex-direction: column;
+            width: 50%;
+
+        }
+        .form input{
+            margin-top: 20px;
+        }
+        .from-conatainer{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            
+            background-color: whitesmoke;
+            height: 90vh;
+            
+        }
+        .from-conatainer input[type="submit"]{
+            width: 30%;
+            background-color: orange;
+            border: none;
+            padding: 10px;
+            color: white;
+            font-size: 20px;
+            cursor: pointer;
+
+        }
+        
+    </style>
+</head>
+<body>
+    <nav>
+        <div class="container">
+            <a href="">Home</a>
+        <a href="">About</a>
+        <a href="">services</a>
+        <a href="">Portfolio</a>
+
+        </div>
+        
+        <a href="">login</a>
+    </nav>
+
+
+    <div class="from-conatainer">
+        <form class="form">
+        <h2>Please Login</h2>
+        <input type="email" name="email" id="email" placeholder="your email"  required> 
+        <input type="password" name="password" id="password" placeholder="your password" required> 
+
+        <input type="submit" value="Login">
+
+    </form>
+
+    </div>
+    
+    
+</body>
+</html>
