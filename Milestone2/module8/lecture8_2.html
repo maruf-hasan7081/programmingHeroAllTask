@@ -1,0 +1,149 @@
+<!-- lecture 2,3 eksathe -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Galary</title>
+    <style>
+        .conatiner{
+            display:grid ;
+            grid-template-columns: repeat(6 ,  1fr);
+            gap: 5px;
+            grid-template-rows: repeat(6 ,200px);
+        }
+        .conatiner img{
+            width:100% ;
+            height:100% ;
+            
+        }
+        .big-box{
+            grid-column: span 6;
+            grid-row: span 2;
+        }
+        .second-box{
+            grid-column: span 2;
+            grid-row: span 2;
+        }
+        .third-box{
+            grid-column: span 2;
+            grid-row: span 2;
+        }
+        .forth-box{
+            grid-column: span 2;
+            grid-row: span 1;
+        }
+        .fivth-box{
+            grid-column: span 2;
+            grid-row: span 1;
+        }
+        .sixth-box{
+            grid-column: span 2;
+            grid-row: span 2;
+        }
+        .seventh-box{
+            grid-column: span 1;
+            grid-row: span 1;
+        }
+        .seventh-box2{
+            grid-column: span 1;
+            grid-row: span 1;
+        }
+       
+        .seventh-box3{
+            grid-column: span 1;
+            grid-row: span 1;
+        }
+        .seventh-box4{
+            grid-column: span 1;
+            grid-row: span 1;
+        }
+         .eighth-box{
+            grid-column: span 2;
+            grid-row: span 2;
+        }
+        @media screen and (max-width: 576px) {
+            .conatiner{
+                display: block;
+            }
+            /* .conatiner{
+                grid-template-columns: repeat(2 ,  1fr);
+                grid-template-rows: repeat(16 ,200px);
+            }
+            .big-box{
+                grid-column: span 2;
+                grid-row: span 2;
+            }
+            .second-box{
+                grid-column: span 2;
+                grid-row: span 2;
+            }
+            .third-box{
+                grid-column: span 2;
+                grid-row: span 2;
+            }
+            .forth-box{
+                grid-column: span 2;
+                grid-row: span 2;
+            }
+            .fivth-box{
+                grid-column: span 2;
+                grid-row: span 2;
+            }
+            .sixth-box{
+                grid-column: span 2;
+                grid-row: span 2;
+            }
+            .seventh-box{
+                grid-column: span 2;
+                grid-row: span 2;
+            }
+             .eighth-box{
+                grid-column: span 2;
+                grid-row: span 2;
+            } */
+            
+        }
+        
+    </style>
+</head>
+<body>
+    <div class="conatiner">
+        <div class="big-box">
+            <img src="images/A.jpg" alt="">
+        </div>
+        <div class="second-box">
+            <img src="images/B.jpg" alt="">
+        </div>
+        <div class="third-box">
+            <img src="images/C.jpg" alt="">
+        </div>
+        <div class="forth-box">
+            <img src="images/D.jpg" alt="">
+        </div>
+        <div class="fivth-box">
+            <img src="images/E.jpg" alt="">
+        </div>
+        <div class="sixth-box">
+            <img src="images/F.jpg" alt="">
+        </div>
+        <div class="seventh-box">
+            <img src="images/G.jpg" alt="">
+        </div>
+        <div class="seventh-box">
+            <img src="images/G.jpg" alt="">
+        </div>
+        
+        <div class="eighth-box">
+            <img src="images/I.jpg" alt="">
+        </div>
+        <div class="seventh-box">
+            <img src="images/G.jpg" alt="">
+        </div>
+        <div class="seventh-box">
+            <img src="images/G.jpg" alt="">
+        </div>
+    </div>
+    
+</body>
+</html>
