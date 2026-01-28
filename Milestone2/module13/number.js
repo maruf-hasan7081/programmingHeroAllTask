@@ -20,7 +20,7 @@ console.log(total.toFixed(3));
 
 // so ekhn amra korbo ki -----
 
-console.log(parseFloat(total.toFixed(3)) );
+console.log(parseFloat(total.toFixed(3)));
 
 
 
