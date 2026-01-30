@@ -4,4 +4,9 @@
 
  //index
 
- console.log(number[5])
+//  console.log(number[5])
+
+ //get element
+
+ const fourth=number[5];
+ console.log(fourth);
