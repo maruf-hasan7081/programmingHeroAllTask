@@ -8,5 +8,12 @@
 
  //get element
 
- const fourth=number[5];
- console.log(fourth);
+//  const fourth=number[5];
+//  console.log(fourth);
+
+ //update element
+
+ number[1]=50;
+ console.log(number[1]);
+ console.log(number);
+
