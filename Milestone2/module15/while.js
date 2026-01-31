@@ -3,7 +3,7 @@
 // while(num<10){
 //     console.log("number is :" , num);
 //     // num=num+1;
-//     // num+=1;
+    // num+=1; 
 
 //     num++;
 
@@ -35,4 +35,14 @@ while(number1<=10){
     }
     number1++;
 
+}
+
+
+//decremental part 
+
+
+let i=20;
+while(i>=0){
+    console.log(i);
+    i--;
 }
