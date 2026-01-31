@@ -7,6 +7,8 @@ for( const num of numbers){
 
 }
 
+// eta k bole for of loop
+
 // syntex
 // for(){
 
