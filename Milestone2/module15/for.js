@@ -7,3 +7,8 @@ for( const num of numbers){
 
 }
 
+// syntex
+// for(){
+
+// }
+
