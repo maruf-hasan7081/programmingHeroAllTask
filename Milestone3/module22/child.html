@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>childappind</title>
+</head>
+<body>
+    <main class="parent">
+        <section class="child">
+            <h1>this is child page</h1>
+            <ul>
+                <li>maruf</li>
+                <li>tayeba</li>
+                <li>pinky</li>
+            </ul>
+        </section>
+    </main>
+
+
+
+
+
+    <script>
+
+        const newchild = document.createElement('section');
+
+newchild.innerHTML = `
+<h1>Another Child Section</h1>
+<ul>
+    <li>Another Child Item 1</li>
+    <li>Another Child Item 2</li>
+</ul>
+`;
+
+const addchild = document.querySelector('.parent');
+addchild.appendChild(newchild);
+
+
+    </script>
+    
+</body>
+</html>
