@@ -6,7 +6,7 @@
     <title>Document</title>
 </head>
 <body>
-    <h1>my name is maruf</h1>
+    <h1 id="ok">my name is maruf</h1>
     <h1>my name is hasan</h1>
     <h1>my name is chowdhury</h1>
     <ul>
@@ -20,20 +20,26 @@
 
     <script>
 
-        const headeliment = document.getElementsByTagName('li');
-        for(const li of headeliment){
-            console.log(li.innerText);
-        }
+        // const headeliment = document.getElementsByTagName('li');
+        // for(const li of headeliment){
+        //     console.log(li.innerText);
+        // }
 
 
 
-        const name =document.getElementsByTagName('h1');
-        for(const h1 of name ){
+        // const name =document.getElementsByTagName('h1');
+        // for(const h1 of name ){
 
-            console.log(h1.innerText);
-        }
+        //     // console.log(h1.innerText);
+        // }
 
-        console.log(document.body);
+        // // console.log(document.body);
+
+
+        const name =document.getElementById('ok');
+        console.log(name.innerText);
+       
+
 
 
     </script>
