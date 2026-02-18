@@ -14,24 +14,52 @@
     <button onclick="console.log(7)">2nd button</button>
     <button onclick="console.log('Login successful')">login</button>
 
+<section>
 
-    <button onclick="colorchange(count)">change color</button>
+</section>
+<section class="ok h-10 w-2.5">
+
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laudantium quis nemo voluptatem aliquid aspernatur numquam similique adipisci illo unde, debitis maxime minima nobis. Dicta ad, dolore deleniti exercitationem doloremque placeat!</p>
+
+</section>
+
+
+
+
+    <button onclick="colorchange()">change color</button>
+
+
+
+    <button id="Set-button">set Color</button>
 
 
     <script>
         let count = 1;
 
+        const ok =document.querySelector('.ok');
+
       function colorchange(){
         if(count==1){
-          document.body.style.backgroundColor="green";
+          ok.style.backgroundColor="green";
           count=2;
 
         } else if(count==2){
-          document.body.style.backgroundColor="red";
+          ok.style.backgroundColor="red";
           count=1;
         }
         
       }
+
+
+
+      const setButton =document.getElementById('Set-button');
+
+      setButton.onclick= function makeblue(){
+
+        document.body.style.backgroundColor="blue";
+      }
+
+
 
     </script>
 
