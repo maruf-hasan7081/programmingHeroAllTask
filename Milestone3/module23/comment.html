@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Comment</title>
+
+    <style>
+
+        .comment-post{
+            background-color: tomato;
+            color: white;
+            padding: 10px;
+            border-radius: 5px;
+            width: 500px;
+            margin: 0px auto;
+            font-size: 1.2em;
+            margin: 10px;
+            padding: 10px;
+        }
+    </style>
+</head>
+<body>
+
+
+    <section>
+
+        <div id="comment-post">
+
+            <p class="comment-post"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio iste doloremque, aliquam est commodi ratione, et animi rem voluptatem voluptas vel ab dignissimos accusantium, odio ullam? Veritatis officiis voluptatum magni?</p>
+
+            <p class="comment-post">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Reprehenderit soluta in, facilis delectus exercitationem odio molestiae quis eaque recusandae quisquam deleniti fugiat architecto dicta quae amet aspernatur natus incidunt neque.</p>
+
+            <p class="comment-post">Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti laudantium distinctio hic animi porro, facilis, consectetur molestias rem temporibus sapiente nemo iste, ipsum quisquam. Eius veniam nemo temporibup facilis incidunt.</p>
+
+        </div>
+
+        <textarea name="comment" id="comment-area" cols="30" rows="10"></textarea> <br>
+
+        <button id="submit-comment">Submit Comment</button>
+
+    </section>
+
+    <script>
+        document.getElementById('submit-comment').addEventListener('click', function() {
+
+            const comment=document.getElementById('comment-area');
+            // console.log(comment);
+
+            const commentText=comment.value;
+            // console.log(commentText);
+
+
+
+            const  commentPost = document.getElementById('comment-post'); 
+            // commentPost.appendChild(commentText);
+
+            // console.log(commentPost);
+
+
+            const commentP= document.createElement('p');
+            commentP.innerText=commentText;
+            commentP.classList.add('comment-post');
+
+            commentPost.appendChild(commentP);
+
+
+
+        } )
+
+
+            
+
+
+    </script>
+
+
+    
+
+
+
+
+
+
+
+
+
+
+    
+</body>
+</html>

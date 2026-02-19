@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Add even listener</title>
+</head>
+<body>
+
+    <label for="user-input" id="user-label">Enter your your name:</label> <br> <br>
+
+    <input type="text" name="user-input" id="user-input" placeholder="type something"> <br> <br> 
+    
+    <p id="output"></p>
+
+    <button id="submit-button"> submit</button>
+
+    <script>
+
+        document.getElementById('submit-button').addEventListener('click', function()
+        {
+
+            //get the useername
+           const userInput = document.getElementById('user-input');
+           console.log(userInput);
+           const name=userInput.value;
+         console.log('name:', name);
+           
+
+         //set the user name in the label
+         const output = document.getElementById('output');
+         output.innerText = 'welcome ' + name;
+
+
+
+
+           
+            
+        })
+
+
+
+
+    </script>
+
+
+
+
+
+    
+</body>
+</html>
