@@ -7,3 +7,6 @@ let person={
 }
 let json = json.stringify(person);
 console.log(json);
+console.log(json);
+console.log(json);
+console.log(json);
