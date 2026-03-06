@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bouble event</title>
+
+
+
+    <style>
+
+        #item{
+            border: 2px solid tomato;
+            margin: 2px;
+            padding: 2px;
+
+        }
+
+        li{
+            border: 2px solid tomato;
+            margin: 2px;
+            padding: 2px;
+
+        }
+
+        section{
+            border: 2px solid tomato;
+            margin: 2px;
+            padding: 2px;
+
+        }
+
+
+        h1{
+            border: 2px solid tomato;
+            margin: 2px;
+            padding: 2px;
+
+        }
+
+
+
+
+
+    </style>
+</head>
+<body>
+
+
+    <section>
+
+
+
+    
+
+    <h1 id="heading">Bubble Event</h1>
+        <ol id="item">
+            <li id="item1">item 1</li>
+            <li>item 2</li>
+            <li>item 3</li>
+            <li>item 4</li>
+            <li>item 5</li>
+            <li>item 6</li>
+            <li>item 7</li>
+            <li>item 8</li>
+        </ol>
+
+
+
+        </section>
+    
+
+
+    <script>
+
+        document.getElementById('item').addEventListener('click', function(event) {
+
+            console.log('item clicked');
+
+            
+
+        })
+
+        document.getElementById('heading').addEventListener('click', function(event) {
+
+            console.log('heading clicked');
+
+            
+
+        })
+        document.getElementById('item1').addEventListener('click', function(event) {
+
+            console.log('item1 clicked');
+            event.stopPropagation(); // Stop propagation to prevent bubbling up
+
+
+            
+
+        })
+
+
+
+
+
+    </script>
+    
+
+
+
+
+
+    
+</body>
+</html>
