@@ -5,17 +5,8 @@ let person={
 
 
 }
-let json = json.stringify(person);
-console.log(json);
-console.log(json);
-console.log(json);
-console.log(json);
-console.log(json);
-console.log(json);
-console.log(json);
-console.log(json);
-console.log(json);
-console.log(json);
-console.log(json);
-console.log(json);
-console.log(json);
+let json = JSON.stringify(person);
+console.log(json);  // converting object to json
+
+let namjson=JSON.parse(json);
+console.log(namjson); // converting json to object
